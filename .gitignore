@@ -1,0 +1,35 @@
+# Visual Studio 缓存与用户文件
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.VC.db
+*.aps
+
+# 编译输出（只排除根目录的，保留 easyx/lib 里的依赖库）
+Debug/
+Release/
+/Win32/
+/x64/
+[Bb]in/
+[Oo]bj/
+ipch/
+*.exe
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.tlog/
+*.log
+*.recipe
+*.FileListAbsolute.txt
+*.pch
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# WorkBuddy 工作数据
+.workbuddy/
